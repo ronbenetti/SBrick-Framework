@@ -255,7 +255,7 @@ class SbrickAPI(object):
 
     def stop(self, channels=['00']):
         # TODO: validate parameters
-        slef._logger.debug('Stop action')
+        self._logger.debug('Stop action')
         for channel in channels:
             thd = self._channel_thread[channel]
             if thd:
