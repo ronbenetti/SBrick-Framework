@@ -155,7 +155,7 @@ client.disconnect()
     * `logger`       : logger object. logging. Default is sys.stdout
     * `broker_ip`    : string.        IP address of MQTT. Default is 127.0.0.1
     * `broker_port`  : number.        Port number of MQTT. Default is 1883
-* __publish_dirve()__
+* __publish_drive()__
   * Drive s LEGO power function
   * _Parameters_:
     * `sbrick_id`    : string. SBrick mac address. 11:22:33:44:55:66
